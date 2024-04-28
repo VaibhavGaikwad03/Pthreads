@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-
+ 
 void func()
 {
     printf("Hello from thread...\n");
