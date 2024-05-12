@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <pthread.h>
  
-static int glob = 0;
+static int glob = 0; 
 
 static void *thread_func(void *arg)
 {
