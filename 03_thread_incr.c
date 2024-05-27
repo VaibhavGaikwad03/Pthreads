@@ -7,7 +7,7 @@ static int glob = 0;
 static void *thread_func(void *arg)
 {
     int loops = *((int *)arg);
-    int loc, j;
+    int loc, j; 
 
     for (j = 0; j < loops; j++)
     {
