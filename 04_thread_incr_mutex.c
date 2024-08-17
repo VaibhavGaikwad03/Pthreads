@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <pthread.h>
 #include "lib/tlpi_hdr.h"
-
+ 
 static int glob = 0;
 static pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;
  
