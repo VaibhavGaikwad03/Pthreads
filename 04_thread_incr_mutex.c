@@ -4,7 +4,7 @@
 
 static int glob = 0;
 static pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;
-
+ 
 static void *thread_func(void *arg) /* Loop 'arg' times incrementing glob*/
 {
     int loops = *((int *)arg);
